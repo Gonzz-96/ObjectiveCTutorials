@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-int main (int argc, char const * argv[])
+int main_old (int argc, char const * argv[])
 {
     @autoreleasepool {
         NSDate *now = [NSDate now];
