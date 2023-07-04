@@ -7,28 +7,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SampleClass:NSObject
-- (void)sampleMethod;
-@end
-
-@implementation SampleClass
-
-- (void)sampleMethod {
-    NSLog(@"Hello, world!");
-}
-
-@end
-
-
-int main (int argc, char * argv[])
+int main (int argc, const char * argv[])
 {
     @autoreleasepool {
-        NSLog(@"Programming is fun!");
-
-        SampleClass * sampleClass = [[SampleClass alloc] init];
-        [sampleClass sampleMethod];
+        NSDate *now = [NSDate date];
+        NSLog(@"The new date lives at %p!", now);
     }
-//    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-//    [pool drain];
     return 0;
 }
