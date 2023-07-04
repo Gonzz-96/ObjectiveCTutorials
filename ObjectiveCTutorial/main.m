@@ -10,7 +10,7 @@
 int main (int argc, const char * argv[])
 {
     @autoreleasepool {
-        NSDate *now = [NSDate date];
+        NSDate *now = [[NSDate alloc] init];
         // to see the current date, use %@ formatter
         NSLog(@"The new date lives at %p!", now);
 
@@ -22,16 +22,35 @@ int main (int argc, const char * argv[])
         NSLog(@"In 100,000 seconds it will be %@", later);
 
         // Challange
-        NSDateComponents *comps = [[NSDateComponents alloc] init];
-        [comps setYear:1996];
-        [comps setMonth:7];
-        [comps setDay:13];
-        [comps setHour:10];
-        [comps setMinute:30];
-        [comps setSecond:0];
-        NSCalendar *g = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
-        NSDate *dateOfBirth = [g dateFromComponents:comps];
-        NSLog(@"I've been alive %f seconds since I was born!", [[NSDate date] timeIntervalSinceDate:dateOfBirth]);
+//        NSDateComponents *comps = [[NSDateComponents alloc] init];
+//        [comps setYear:1996];
+//        [comps setMonth:7];
+//        [comps setDay:13];
+//        [comps setHour:10];
+//        [comps setMinute:30];
+//        [comps setSecond:0];
+//        NSCalendar *g = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+//        NSDate *dateOfBirth = [g dateFromComponents:comps];
+//        NSLog(@"I've been alive %f seconds since I was born!", [[NSDate date] timeIntervalSinceDate:dateOfBirth]);
+
+        NSCalendar *cal = [NSCalendar currentCalendar];
+        NSUInteger day = [cal ordinalityOfUnit:NSCalendarUnitDay
+                                        inUnit:NSCalendarUnitMonth
+                                       forDate:now];
+        NSLog(@"This is day %lu of the month", day);
+
+        NSUInteger hour = [cal ordinalityOfUnit:NSCalendarUnitHour
+                                         inUnit:NSCalendarUnitYear
+                                        forDate:now];
+        NSLog(@"This is hour %lu of the year", hour);
+
+        // Challenge 2
+        NSTimeZone *currentTimeZone = [NSTimeZone systemTimeZone];
+        if ([currentTimeZone isDaylightSavingTime]) {
+            NSLog(@"It's daylight saving time! :)");
+        } else {
+            NSLog(@"It's not daylight saving time! :(");
+        }
     }
     return 0;
 }
