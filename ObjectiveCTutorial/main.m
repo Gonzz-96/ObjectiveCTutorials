@@ -51,6 +51,20 @@ int main (int argc, const char * argv[])
         } else {
             NSLog(@"It's not daylight saving time! :(");
         }
+
+        // Chapter 14: NSString
+        NSString *lament = @"Why me!?";
+        NSString *x = [NSString stringWithFormat:@"The best number is %d", 5];
+
+        NSUInteger charCount = [x length];
+
+        if ([lament isEqual:x]) {
+            NSLog(@"%@ and %@ are equal", lament, x);
+        }
+
+        // Challenge
+        NSString *currentHostName = [[NSHost currentHost] localizedName];
+        NSLog(@"The name of the host is %@.", currentHostName);
     }
     return 0;
 }
