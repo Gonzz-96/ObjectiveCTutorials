@@ -9,7 +9,7 @@
 #import "Person.h"
 #import "StockHolding.h"
 
-int main (int argc, char const * argv[])
+int main_old (int argc, char const * argv[])
 {
     @autoreleasepool {
         Person *person = [[Person alloc] init];
