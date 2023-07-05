@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "Employee.h"
 
-int main (int argc, char const * argv[])
+int main_old3 (int argc, char const * argv[])
 {
     @autoreleasepool {
         Employee * person = [[Employee alloc] init];
