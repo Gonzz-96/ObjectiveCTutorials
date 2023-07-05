@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6170EFAD2A56332E00E6CA34 /* inheritance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6170EFA02A56332E00E6CA34 /* inheritance.m */; };
+		6170EFAE2A56332E00E6CA34 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 6170EFA12A56332E00E6CA34 /* Employee.m */; };
+		6170EFAF2A56332E00E6CA34 /* StockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6170EFA22A56332E00E6CA34 /* StockHolding.m */; };
+		6170EFB02A56332E00E6CA34 /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = 6170EFA52A56332E00E6CA34 /* Asset.m */; };
+		6170EFB12A56332E00E6CA34 /* classes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6170EFA82A56332E00E6CA34 /* classes.m */; };
+		6170EFB22A56332E00E6CA34 /* ForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6170EFA92A56332E00E6CA34 /* ForeignStockHolding.m */; };
+		6170EFB32A56332E00E6CA34 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6170EFAA2A56332E00E6CA34 /* Person.m */; };
+		6170EFB42A56332E00E6CA34 /* objectInstanceVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 6170EFAB2A56332E00E6CA34 /* objectInstanceVariables.m */; };
 		FA4E082D2A539344009E8535 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4E082C2A539344009E8535 /* main.m */; };
 		FA4E08362A5398C9009E8535 /* methods.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4E08352A5398C9009E8535 /* methods.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +32,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6170EFA02A56332E00E6CA34 /* inheritance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = inheritance.m; sourceTree = "<group>"; };
+		6170EFA12A56332E00E6CA34 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		6170EFA22A56332E00E6CA34 /* StockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockHolding.m; sourceTree = "<group>"; };
+		6170EFA32A56332E00E6CA34 /* StockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockHolding.h; sourceTree = "<group>"; };
+		6170EFA42A56332E00E6CA34 /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asset.h; sourceTree = "<group>"; };
+		6170EFA52A56332E00E6CA34 /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asset.m; sourceTree = "<group>"; };
+		6170EFA62A56332E00E6CA34 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		6170EFA72A56332E00E6CA34 /* ForeignStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForeignStockHolding.h; sourceTree = "<group>"; };
+		6170EFA82A56332E00E6CA34 /* classes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = classes.m; sourceTree = "<group>"; };
+		6170EFA92A56332E00E6CA34 /* ForeignStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForeignStockHolding.m; sourceTree = "<group>"; };
+		6170EFAA2A56332E00E6CA34 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		6170EFAB2A56332E00E6CA34 /* objectInstanceVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = objectInstanceVariables.m; sourceTree = "<group>"; };
+		6170EFAC2A56332E00E6CA34 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
 		FA4E08292A539344009E8535 /* ObjectiveCTutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveCTutorial; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4E082C2A539344009E8535 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA4E08352A5398C9009E8535 /* methods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = methods.m; sourceTree = "<group>"; };
@@ -59,6 +80,19 @@
 		FA4E082B2A539344009E8535 /* ObjectiveCTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				6170EFA42A56332E00E6CA34 /* Asset.h */,
+				6170EFA52A56332E00E6CA34 /* Asset.m */,
+				6170EFA82A56332E00E6CA34 /* classes.m */,
+				6170EFAC2A56332E00E6CA34 /* Employee.h */,
+				6170EFA12A56332E00E6CA34 /* Employee.m */,
+				6170EFA72A56332E00E6CA34 /* ForeignStockHolding.h */,
+				6170EFA92A56332E00E6CA34 /* ForeignStockHolding.m */,
+				6170EFA02A56332E00E6CA34 /* inheritance.m */,
+				6170EFAB2A56332E00E6CA34 /* objectInstanceVariables.m */,
+				6170EFA62A56332E00E6CA34 /* Person.h */,
+				6170EFAA2A56332E00E6CA34 /* Person.m */,
+				6170EFA32A56332E00E6CA34 /* StockHolding.h */,
+				6170EFA22A56332E00E6CA34 /* StockHolding.m */,
 				FA4E082C2A539344009E8535 /* main.m */,
 				FA4E08352A5398C9009E8535 /* methods.m */,
 			);
@@ -92,7 +126,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					FA4E08282A539344009E8535 = {
 						CreatedOnToolsVersion = 14.2;
@@ -122,6 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6170EFB02A56332E00E6CA34 /* Asset.m in Sources */,
+				6170EFAF2A56332E00E6CA34 /* StockHolding.m in Sources */,
+				6170EFAD2A56332E00E6CA34 /* inheritance.m in Sources */,
+				6170EFB22A56332E00E6CA34 /* ForeignStockHolding.m in Sources */,
+				6170EFAE2A56332E00E6CA34 /* Employee.m in Sources */,
+				6170EFB42A56332E00E6CA34 /* objectInstanceVariables.m in Sources */,
+				6170EFB12A56332E00E6CA34 /* classes.m in Sources */,
+				6170EFB32A56332E00E6CA34 /* Person.m in Sources */,
 				FA4E08362A5398C9009E8535 /* methods.m in Sources */,
 				FA4E082D2A539344009E8535 /* main.m in Sources */,
 			);
@@ -163,6 +205,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -221,6 +264,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -243,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -251,6 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
