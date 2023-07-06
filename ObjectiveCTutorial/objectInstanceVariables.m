@@ -13,6 +13,7 @@ int main (int argc, char const * argv[])
 {
     @autoreleasepool {
         NSMutableArray *employees = [[NSMutableArray alloc] init];
+        NSMutableDictionary *executives = [[NSMutableDictionary alloc] init];
 
         for (int i = 0; i < 10; i++) {
             Employee *person = [[Employee alloc] init];
@@ -23,6 +24,9 @@ int main (int argc, char const * argv[])
 
             [employees addObject:person];
         }
+
+        [executives setObject:[employees objectAtIndex:0] forKey:@"CEO"];
+        [executives setObject:[employees objectAtIndex:1] forKey:@"CTO"];
 
         NSMutableArray *allAssets = [NSMutableArray array];
 
@@ -41,10 +45,25 @@ int main (int argc, char const * argv[])
             [allAssets addObject:asset];
         }
 
+        NSSortDescriptor *voa = [NSSortDescriptor sortDescriptorWithKey:@"valueOfAssets"
+                                                              ascending:YES];
+        NSSortDescriptor *ei = [NSSortDescriptor sortDescriptorWithKey:@"employeeID"
+                                                             ascending:YES];
+        [employees sortUsingDescriptors:[NSArray arrayWithObjects:voa, ei, nil]];
+
         NSLog(@"Employees: %@", employees);
         NSLog(@"Giving up ownership of one employee");
         [employees removeObjectAtIndex:5];
+
         NSLog(@"allAssets: %@", allAssets);
+        NSLog(@"executives: %@", executives);
+        executives = nil;
+
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"holder.valueOfAssets > 70"];
+        NSArray *toBeReclaimed = [allAssets filteredArrayUsingPredicate:predicate];
+        NSLog(@"toBeRecalimed: %@", toBeReclaimed);
+        toBeReclaimed = nil;
+
         NSLog(@"Giving up ownership of array");
         allAssets = nil;
         employees = nil;

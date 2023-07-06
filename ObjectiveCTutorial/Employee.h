@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Employee : Person
 {
     int employeeID;
-    NSMutableArray *assets;
+    NSMutableSet *assets;
 }
 
 @property int employeeID;
