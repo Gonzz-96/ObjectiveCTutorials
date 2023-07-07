@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-int main (int argc, char const * argv[])
+int main_constants (int argc, char const * argv[])
 {
     @autoreleasepool {
         NSLog(@"\u03c0 is %f", M_PI);
