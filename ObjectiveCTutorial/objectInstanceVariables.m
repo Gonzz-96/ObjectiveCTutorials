@@ -9,7 +9,7 @@
 #import "Employee.h"
 #import "Asset.h"
 
-int main (int argc, char const * argv[])
+int main_old4 (int argc, char const * argv[])
 {
     @autoreleasepool {
         NSMutableArray *employees = [[NSMutableArray alloc] init];
