@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "Logger.h"
 
-int main (int argc, char const * argv[])
+int main_callbacks (int argc, char const * argv[])
 {
     @autoreleasepool {
         Logger *logger = [[Logger alloc] init];
