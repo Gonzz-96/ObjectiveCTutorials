@@ -15,6 +15,8 @@
 		6170EFB22A56332E00E6CA34 /* ForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6170EFA92A56332E00E6CA34 /* ForeignStockHolding.m */; };
 		6170EFB32A56332E00E6CA34 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6170EFAA2A56332E00E6CA34 /* Person.m */; };
 		6170EFB42A56332E00E6CA34 /* objectInstanceVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 6170EFAB2A56332E00E6CA34 /* objectInstanceVariables.m */; };
+		61A1CB0E2A58BD7D00D236C9 /* constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A1CB0D2A58BD7D00D236C9 /* constants.m */; };
+		61A1CB102A58C16F00D236C9 /* writingFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A1CB0F2A58C16F00D236C9 /* writingFiles.m */; };
 		FA4E082D2A539344009E8535 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4E082C2A539344009E8535 /* main.m */; };
 		FA4E08362A5398C9009E8535 /* methods.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4E08352A5398C9009E8535 /* methods.m */; };
 /* End PBXBuildFile section */
@@ -45,6 +47,8 @@
 		6170EFAA2A56332E00E6CA34 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		6170EFAB2A56332E00E6CA34 /* objectInstanceVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = objectInstanceVariables.m; sourceTree = "<group>"; };
 		6170EFAC2A56332E00E6CA34 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		61A1CB0D2A58BD7D00D236C9 /* constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = constants.m; sourceTree = "<group>"; };
+		61A1CB0F2A58C16F00D236C9 /* writingFiles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = writingFiles.m; sourceTree = "<group>"; };
 		FA4E08292A539344009E8535 /* ObjectiveCTutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveCTutorial; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4E082C2A539344009E8535 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA4E08352A5398C9009E8535 /* methods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = methods.m; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 				6170EFA22A56332E00E6CA34 /* StockHolding.m */,
 				FA4E082C2A539344009E8535 /* main.m */,
 				FA4E08352A5398C9009E8535 /* methods.m */,
+				61A1CB0D2A58BD7D00D236C9 /* constants.m */,
+				61A1CB0F2A58C16F00D236C9 /* writingFiles.m */,
 			);
 			path = ObjectiveCTutorial;
 			sourceTree = "<group>";
@@ -156,11 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A1CB102A58C16F00D236C9 /* writingFiles.m in Sources */,
 				6170EFB02A56332E00E6CA34 /* Asset.m in Sources */,
 				6170EFAF2A56332E00E6CA34 /* StockHolding.m in Sources */,
 				6170EFAD2A56332E00E6CA34 /* inheritance.m in Sources */,
 				6170EFB22A56332E00E6CA34 /* ForeignStockHolding.m in Sources */,
 				6170EFAE2A56332E00E6CA34 /* Employee.m in Sources */,
+				61A1CB0E2A58BD7D00D236C9 /* constants.m in Sources */,
 				6170EFB42A56332E00E6CA34 /* objectInstanceVariables.m in Sources */,
 				6170EFB12A56332E00E6CA34 /* classes.m in Sources */,
 				6170EFB32A56332E00E6CA34 /* Person.m in Sources */,
