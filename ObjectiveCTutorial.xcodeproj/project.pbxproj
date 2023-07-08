@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6127079D2A58DC550005D2DD /* initMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 6127079C2A58DC550005D2DD /* initMethods.m */; };
+		612707A02A58DD8F0005D2DD /* Appliance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6127079F2A58DD8F0005D2DD /* Appliance.m */; };
+		612707A62A58E25B0005D2DD /* OwnedAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = 612707A52A58E25B0005D2DD /* OwnedAppliance.m */; };
+		612707A92A5901270005D2DD /* properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 612707A82A5901270005D2DD /* properties.m */; };
 		6170EFAD2A56332E00E6CA34 /* inheritance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6170EFA02A56332E00E6CA34 /* inheritance.m */; };
 		6170EFAE2A56332E00E6CA34 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 6170EFA12A56332E00E6CA34 /* Employee.m */; };
 		6170EFAF2A56332E00E6CA34 /* StockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6170EFA22A56332E00E6CA34 /* StockHolding.m */; };
@@ -17,6 +21,9 @@
 		6170EFB42A56332E00E6CA34 /* objectInstanceVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 6170EFAB2A56332E00E6CA34 /* objectInstanceVariables.m */; };
 		61A1CB0E2A58BD7D00D236C9 /* constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A1CB0D2A58BD7D00D236C9 /* constants.m */; };
 		61A1CB102A58C16F00D236C9 /* writingFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A1CB0F2A58C16F00D236C9 /* writingFiles.m */; };
+		61A1CB122A58C84500D236C9 /* callbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A1CB112A58C84500D236C9 /* callbacks.m */; };
+		61A1CB152A58CB4100D236C9 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A1CB142A58CB4100D236C9 /* Logger.m */; };
+		61A1CB182A58D39E00D236C9 /* propertiesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A1CB172A58D39E00D236C9 /* propertiesList.m */; };
 		FA4E082D2A539344009E8535 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4E082C2A539344009E8535 /* main.m */; };
 		FA4E08362A5398C9009E8535 /* methods.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4E08352A5398C9009E8535 /* methods.m */; };
 /* End PBXBuildFile section */
@@ -34,6 +41,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6127079C2A58DC550005D2DD /* initMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = initMethods.m; sourceTree = "<group>"; };
+		6127079E2A58DD8F0005D2DD /* Appliance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Appliance.h; sourceTree = "<group>"; };
+		6127079F2A58DD8F0005D2DD /* Appliance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Appliance.m; sourceTree = "<group>"; };
+		612707A42A58E25B0005D2DD /* OwnedAppliance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OwnedAppliance.h; sourceTree = "<group>"; };
+		612707A52A58E25B0005D2DD /* OwnedAppliance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OwnedAppliance.m; sourceTree = "<group>"; };
+		612707A82A5901270005D2DD /* properties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = properties.m; sourceTree = "<group>"; };
 		6170EFA02A56332E00E6CA34 /* inheritance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = inheritance.m; sourceTree = "<group>"; };
 		6170EFA12A56332E00E6CA34 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 		6170EFA22A56332E00E6CA34 /* StockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockHolding.m; sourceTree = "<group>"; };
@@ -49,6 +62,10 @@
 		6170EFAC2A56332E00E6CA34 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
 		61A1CB0D2A58BD7D00D236C9 /* constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = constants.m; sourceTree = "<group>"; };
 		61A1CB0F2A58C16F00D236C9 /* writingFiles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = writingFiles.m; sourceTree = "<group>"; };
+		61A1CB112A58C84500D236C9 /* callbacks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = callbacks.m; sourceTree = "<group>"; };
+		61A1CB132A58CB4100D236C9 /* Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		61A1CB142A58CB4100D236C9 /* Logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
+		61A1CB172A58D39E00D236C9 /* propertiesList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = propertiesList.m; sourceTree = "<group>"; };
 		FA4E08292A539344009E8535 /* ObjectiveCTutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveCTutorial; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4E082C2A539344009E8535 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA4E08352A5398C9009E8535 /* methods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = methods.m; sourceTree = "<group>"; };
@@ -65,9 +82,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6127079B2A58DC4A0005D2DD /* Init */ = {
+			isa = PBXGroup;
+			children = (
+				6127079C2A58DC550005D2DD /* initMethods.m */,
+				6127079E2A58DD8F0005D2DD /* Appliance.h */,
+				6127079F2A58DD8F0005D2DD /* Appliance.m */,
+				612707A42A58E25B0005D2DD /* OwnedAppliance.h */,
+				612707A52A58E25B0005D2DD /* OwnedAppliance.m */,
+			);
+			path = Init;
+			sourceTree = "<group>";
+		};
+		612707A72A5901070005D2DD /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				612707A82A5901270005D2DD /* properties.m */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		61A1CB162A58D38600D236C9 /* Stockz */ = {
+			isa = PBXGroup;
+			children = (
+				61A1CB172A58D39E00D236C9 /* propertiesList.m */,
+			);
+			path = Stockz;
+			sourceTree = "<group>";
+		};
 		FA4E08202A539344009E8535 = {
 			isa = PBXGroup;
 			children = (
+				612707A72A5901070005D2DD /* Properties */,
+				6127079B2A58DC4A0005D2DD /* Init */,
+				61A1CB162A58D38600D236C9 /* Stockz */,
 				FA4E082B2A539344009E8535 /* ObjectiveCTutorial */,
 				FA4E082A2A539344009E8535 /* Products */,
 			);
@@ -101,6 +149,9 @@
 				FA4E08352A5398C9009E8535 /* methods.m */,
 				61A1CB0D2A58BD7D00D236C9 /* constants.m */,
 				61A1CB0F2A58C16F00D236C9 /* writingFiles.m */,
+				61A1CB112A58C84500D236C9 /* callbacks.m */,
+				61A1CB132A58CB4100D236C9 /* Logger.h */,
+				61A1CB142A58CB4100D236C9 /* Logger.m */,
 			);
 			path = ObjectiveCTutorial;
 			sourceTree = "<group>";
@@ -162,16 +213,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6127079D2A58DC550005D2DD /* initMethods.m in Sources */,
 				61A1CB102A58C16F00D236C9 /* writingFiles.m in Sources */,
 				6170EFB02A56332E00E6CA34 /* Asset.m in Sources */,
+				612707A92A5901270005D2DD /* properties.m in Sources */,
 				6170EFAF2A56332E00E6CA34 /* StockHolding.m in Sources */,
 				6170EFAD2A56332E00E6CA34 /* inheritance.m in Sources */,
 				6170EFB22A56332E00E6CA34 /* ForeignStockHolding.m in Sources */,
+				61A1CB152A58CB4100D236C9 /* Logger.m in Sources */,
 				6170EFAE2A56332E00E6CA34 /* Employee.m in Sources */,
 				61A1CB0E2A58BD7D00D236C9 /* constants.m in Sources */,
+				61A1CB122A58C84500D236C9 /* callbacks.m in Sources */,
 				6170EFB42A56332E00E6CA34 /* objectInstanceVariables.m in Sources */,
+				61A1CB182A58D39E00D236C9 /* propertiesList.m in Sources */,
 				6170EFB12A56332E00E6CA34 /* classes.m in Sources */,
 				6170EFB32A56332E00E6CA34 /* Person.m in Sources */,
+				612707A02A58DD8F0005D2DD /* Appliance.m in Sources */,
+				612707A62A58E25B0005D2DD /* OwnedAppliance.m in Sources */,
 				FA4E08362A5398C9009E8535 /* methods.m in Sources */,
 				FA4E082D2A539344009E8535 /* main.m in Sources */,
 			);
