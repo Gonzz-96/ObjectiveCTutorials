@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-int main (int argc, char const *argv[])
+int main_propertiesList (int argc, char const *argv[])
 {
     @autoreleasepool {
         NSMutableArray *stocks = [[NSMutableArray alloc] init];
