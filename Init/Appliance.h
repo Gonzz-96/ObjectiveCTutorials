@@ -9,13 +9,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Appliance : NSObject  {
+@interface Appliance : NSObject {
+    // when using @property, it's not needed to declare the properties
+    // but it's a good practice to declare them as docs for others
     NSString *productName;
     int voltage;
 }
 
-@property (copy) NSString *productName;
-@property int voltage;
+@property (copy, nonatomic) NSString *productName;
+@property (nonatomic) int voltage;
 
 - (id)initWithProductName:(NSString *)pn;
 

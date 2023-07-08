@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "Appliance.h"
 
-int main (int argc, char const *argv[])
+int main_initMethods (int argc, char const *argv[])
 {
     @autoreleasepool {
         Appliance *a = [[Appliance alloc] init];
